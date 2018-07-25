@@ -11,7 +11,7 @@
 <p id="title">資格取得状況管理システム</p>
 </header>
 <body>
-<form action="RegStudentResult" method="get"id="item">
+<form action="RegDataResult" method="get"id="item">
 <p>新規登録</p>
 <p>学籍番号：<input type="text" name="studentid" ></p>
 <p>名前：<input type="text" name="studentname"></p>
