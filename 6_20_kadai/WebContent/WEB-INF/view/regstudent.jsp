@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<LINK REL="stylesheet" href="/6_20kadai/CSS/Common.css" type="text/css"/>
+<LINK REL="stylesheet" href="/6_20_kadai/CSS/Common.css" type="text/css"/>
 <meta charset="UTF-8">
 <title>登録画面</title>
 </head>
@@ -17,10 +17,10 @@
 <p>名前：<input type="text" name="studentname"></p>
 <p>年齢：<input type="text" name="studentage"></p>
 <p>性別：<input type="text" name="studentgender"></p>
-<input type="submit" onclick="location.href='/6_20kadai/RegStudentResult'" name="Insert" value="新規登録"><br>
+<input type="submit"  name="Insert" value="新規登録"><br>
 </form>
 <footer>
-<a href="/6_20kadai/MainMenu" >メインメニューへ</a>
+<a href="/6_20_kadai/MainMenu" >戻る</a>
 </footer>
 </body>
 </html>

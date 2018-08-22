@@ -5,17 +5,15 @@
 <head>
 <LINK REL="stylesheet" href="/6_20_kadai/CSS/Common.css" type="text/css"/>
 <meta charset="UTF-8">
-<title>登録完了</title>
+<title>メインメニュー</title>
 </head>
 <header>
-<p id="title">資格取得状況管理システム</p>
+<p id="title">資格管理システム</p>
 </header>
 <body>
 <div id="item">
-<p>新規登録完了しました。</p>
+  <a href="/6_20kadai/RegStudent" class="link">学生登録</a><br>
+  <a href="/6_20kadai/RegData"class="link">資格登録</a><br>
 </div>
-<footer>
-<a href="/6_20_kadai/MainMenu" >メインメニューへ</a>
-</footer>
 </body>
 </html>

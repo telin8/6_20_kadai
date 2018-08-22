@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-image:url(../image/p_da0602_m_da06027.jpg);
+	background-repeat: repeat;
+}
+header{
+	width: auto;
+	height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100vw 100px;
+    margin: 10 auto;
+    padding: 0 auto;
+    font-size: 300%;
+    text-shadow: 2px 2px 1px gray;
+    }
+#main {
+	background-color: #EFF8FB;
+
+}
+#table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#item{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    font-size: 140%;
+    background-color: #EFF8FB;
+}
+common{
+    text-align: center;
+    font-size: 150%;
+}

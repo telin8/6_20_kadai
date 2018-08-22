@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 import dto.SikakuDTO;
 
-public class RegStudentDAO {
+public class RegDataDAO {
 
-	public static SikakuDTO RegistrationStudent(int studentId, String studentName, int studentAge, String studentGender){
+	public static SikakuDTO RegistrationData(int sikakuId, String sikakuName, int sikakuLevel, String examDate, String Sof){
 
 		SikakuDTO result = null;
 
@@ -25,14 +25,15 @@ public class RegStudentDAO {
 					"root",
 					"pkp12345");
 
-			String sql = "insert into students values(?, ?, ?, ?);";
+			String sql = "insert into sikaku values(?, ?, ?, ?, ?);";
 
 			pstmt = con.prepareStatement(sql);
 
-			pstmt.setInt(1, studentId);
-			pstmt.setString(2, studentName);
-			pstmt.setInt(3, studentAge);
-			pstmt.setString(4, studentGender);
+			pstmt.setInt(1, sikakuId);
+			pstmt.setString(2, sikakuName);
+			pstmt.setInt(3, sikakuLevel);
+			pstmt.setString(4, examDate);
+			pstmt.setString(5, Sof);
 
 			pstmt.executeUpdate();
 

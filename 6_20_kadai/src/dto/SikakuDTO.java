@@ -1,5 +1,7 @@
 package dto;
 
+import java.util.Date;
+
 public class SikakuDTO {
 	private int studentId;
 	private String studentName;
@@ -8,6 +10,7 @@ public class SikakuDTO {
 	private int sikakuId;
 	private String sikakuName;
 	private String sikakuLevel;
+	private Date ExamDate;
 	private String Sof;
 
 	public SikakuDTO(int studentId, String studentName, int studentAge, String studentGender, int sikakuId, String sikakuName, String sikakuLevel, String Sof){
@@ -69,6 +72,14 @@ public class SikakuDTO {
 	}
 	public void setSof(String sof) {
 		Sof = sof;
+	}
+
+	public Date getExamDate() {
+		return ExamDate;
+	}
+
+	public void setExamDate(Date examDate) {
+		ExamDate = examDate;
 	}
 
 

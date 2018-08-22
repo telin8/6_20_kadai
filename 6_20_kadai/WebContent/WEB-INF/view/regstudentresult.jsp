@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<LINK REL="stylesheet" href="/5_11kadai/CSS/Common.css" type="text/css"/>
+<LINK REL="stylesheet" href="/6_20_kadai/CSS/Common.css" type="text/css"/>
 <meta charset="UTF-8">
 <title>登録完了</title>
 </head>
@@ -15,7 +15,7 @@
 <p>新規登録完了しました。</p>
 </div>
 <footer>
-<a href="/5_11kadai/MainMenu" >メインメニューへ</a>
+<a href="/6_20_kadai/regstudent" >戻る</a>
 </footer>
 </body>
 </html>
